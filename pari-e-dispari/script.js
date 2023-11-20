@@ -5,8 +5,7 @@
 // Dichiariamo chi ha vinto.
 
 
-const sceltaPariDispari = 'pari'
-// prompt('scegli tra pari o dispari')
+const sceltaPariDispari = prompt('scegli tra pari o dispari')
 const numeroUtente = parseInt(prompt('inserisci un numero da 1 a 5'));
 
 let risultato = numeroRandom() 
@@ -14,7 +13,13 @@ let risultato = numeroRandom()
 let somma = numeroUtente + risultato
 console.log(somma)
 
+let risultatoSomma = pariODispari(somma)
 
+if (risultatoSomma === sceltaPariDispari) {
+    console.log('utente ha vinto')
+} else {
+    console.log('pc ha vinto')
+}
 
 // Funzioni
 function numeroRandom(){
