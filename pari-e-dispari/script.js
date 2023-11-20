@@ -7,11 +7,12 @@
 
 const sceltaPariDispari = prompt('scegli tra pari o dispari')
 const numeroUtente = parseInt(prompt('inserisci un numero da 1 a 5'));
+// let numeroComputer 
 
-function numeroCasuale(numeroComputer){
-    numeroRandom = alert(Math.round(Math.random() * 5))
-    console.log(numeroRandom)
-    return numeroRandom
+
+function numeroRandom(numero){
+    numeroComputer = alert(Math.round(Math.random() * 5))
+    return numeroComputer
 }
 
 numeroComputer
