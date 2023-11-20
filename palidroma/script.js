@@ -8,7 +8,7 @@
 const parola = prompt('inserisci una parola')
 let parolaInversa = parolaInvertita(parola)
 
-if (parola == parolaInversa) {
+if (parola === parolaInversa) {
     console.log('la parola è palindroma')
 } else {
     console.log('la parola non è palindroma')
