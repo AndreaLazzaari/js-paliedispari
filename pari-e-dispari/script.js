@@ -13,9 +13,9 @@ let risultato = numeroRandom()
 let somma = numeroUtente + risultato
 console.log(somma)
 
-let risultatoSomma = pariODispari(somma)
+let vincitore = pariODispari(somma)
 
-if (risultatoSomma === sceltaPariDispari) {
+if (vincitore === sceltaPariDispari) {
     console.log('utente ha vinto')
 } else {
     console.log('pc ha vinto')
