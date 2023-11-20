@@ -4,3 +4,16 @@
 // Stabiliamo se la somma dei due numeri è pari o dispari (usando un'altra funzione)
 // Dichiariamo chi ha vinto.
 
+
+const sceltaPariDispari = prompt('scegli tra pari o dispari')
+const numeroUtente = parseInt(prompt('inserisci un numero da 1 a 5'));
+
+function numeroCasuale(numeroComputer){
+    numeroRandom = alert(Math.round(Math.random() * 5))
+    console.log(numeroRandom)
+    return numeroRandom
+}
+
+numeroComputer
+let somma = numeroUtente + numeroComputer
+console.log(somma)
