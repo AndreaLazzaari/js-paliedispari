@@ -5,16 +5,28 @@
 // Dichiariamo chi ha vinto.
 
 
-const sceltaPariDispari = prompt('scegli tra pari o dispari')
+const sceltaPariDispari = 'pari'
+// prompt('scegli tra pari o dispari')
 const numeroUtente = parseInt(prompt('inserisci un numero da 1 a 5'));
-// let numeroComputer 
+
+let risultato = numeroRandom() 
+
+let somma = numeroUtente + risultato
+console.log(somma)
 
 
-function numeroRandom(numero){
-    numeroComputer = alert(Math.round(Math.random() * 5))
+
+// Funzioni
+function numeroRandom(){
+    let numeroComputer = Math.round(Math.random() * 5);
     return numeroComputer
 }
 
-numeroComputer
-let somma = numeroUtente + numeroComputer
-console.log(somma)
+
+// function pariODispari(somma) {
+//     if (somma % 2 === 0) {
+//         return 'pari'
+//     } else {
+//         return 'dispari'
+//     }
+// }
