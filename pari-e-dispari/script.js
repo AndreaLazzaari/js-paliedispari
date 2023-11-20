@@ -23,10 +23,10 @@ function numeroRandom(){
 }
 
 
-// function pariODispari(somma) {
-//     if (somma % 2 === 0) {
-//         return 'pari'
-//     } else {
-//         return 'dispari'
-//     }
-// }
+function pariODispari(somma) {
+    if (somma % 2 === 0) {
+        return 'pari'
+    } else {
+        return 'dispari'
+    }
+}
